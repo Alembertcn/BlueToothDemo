@@ -15,7 +15,7 @@ public class BluetoothReceiver extends BroadcastReceiver {
 
     String pin = "1234";  //此处为你要连接的蓝牙设备的初始密钥，一般为1234或0000
     public BluetoothReceiver() {
-
+            System.out.println("test");
     }
 
     //广播接收器，当远程蓝牙设备被发现时，回调函数onReceiver()会被执行
